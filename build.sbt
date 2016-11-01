@@ -12,16 +12,13 @@ lazy val commonSettings = Seq(
 )
 
 lazy val strategy = project.
-  settings(commonSettings: _*).
-  settings(
-)
+  settings(commonSettings: _*)
 
 lazy val observer = project.
-  settings(commonSettings: _*).
-  settings(
-)
+  settings(commonSettings: _*)
 
 lazy val decorator = project.
-  settings(commonSettings: _*).
-  settings(
-)
+  settings(commonSettings: _*)
+
+lazy val factory = project.
+  settings(commonSettings: _*)
