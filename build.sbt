@@ -22,3 +22,6 @@ lazy val decorator = project.
 
 lazy val factory = project.
   settings(commonSettings: _*)
+
+lazy val singleton = project.
+  settings(commonSettings: _*)
